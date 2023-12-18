@@ -1,0 +1,44 @@
+:root {
+    --terracota: rgba(240,120,91,0.8)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background-color: var(--terracota)
+}
+.link {
+    display: inline;
+}
+
+ul{
+    justify-content: flex-end;
+}
+
+li {
+    justify-content: flex-end;
+    margin: 10px;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+/*main body styling*/
+
+main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    position: relative;
+}
