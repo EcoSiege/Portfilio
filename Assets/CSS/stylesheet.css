@@ -1,5 +1,5 @@
 :root {
-    --terracota: rgba(240,120,91,0.8)
+    --terracota: rgba(255,120,80,0.8)
 }
 
 body {
@@ -37,8 +37,15 @@ main {
     flex-wrap: wrap;
     display: inline-flex;
     justify-content: space-evenly;
+    margin: 3%
 }
 
-h2 {
+
+
+h3 {
     position: relative;
+    margin-bottom: -15px;
+    border-style: solid;
+    font-size: 140%;
+    background-color: var(--terracota);
 }
