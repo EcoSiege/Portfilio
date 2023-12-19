@@ -6,11 +6,13 @@
 * {
     margin: 3%;
     padding: 10px
+    1vw = 1% of viewport width
+    1vh = 1% of viewport height
 }
 
 body {
-    display: flexbox;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column
 }
 
 #travis {
@@ -25,6 +27,7 @@ header {
     background-color: var(--terracota);
     padding-top: 5px;
     padding-bottom: 15px;
+    flex-direction: row;
 }
 .link {
     display: inline;
@@ -39,6 +42,7 @@ li {
     margin: 10px;
     font-size: 150%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex: 1 1
 }
 
 h1 {
@@ -53,9 +57,8 @@ h2 {
 /*main body styling*/
 
 main {
-    flex-direction: row;
     flex-wrap: wrap;
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -82,4 +85,10 @@ h3 {
     border-style: solid;
     font-size: 140%;
     background-color: var(--terracota);
+}
+
+/*contact me styling*/
+
+footer {
+    position: static;
 }
