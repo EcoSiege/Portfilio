@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Typography</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
@@ -13,22 +13,23 @@
         <h1 class="link">Travis Parks</h1>
         <ul class="link">
             <li class="link">
-                About Me
+                <a href="#me">About Me</a>
             </li>
             <li class="link">
-                Contact Me
+               <a href="#work">My Work</a>
             </li>
             <li class="link">
-                My Work
+                <a href="#contact">Contact Me</a>
             </li>
         </ul>
     </header>
     <main>
-        <section>
+        <section id="me">
             <h2>About Me</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem repellat, voluptatibus cupiditate debitis tempora officiis, nostrum qui natus dignissimos voluptates amet recusandae maxime provident aliquid velit facere doloribus est labore.</p>
         </section>
         <section class="cards">
+            <h2 id="work">My Work</h2>
             <div>
                 <h3><a href="https://ecosiege.github.io/Horiseon-webpage/">Horiseon</a></h3>
                 <img src="https://placehold.co/400">
@@ -47,9 +48,13 @@
             </div>
         </section>
     </main>
-    <aside>
-
-    </aside>
+    <section>
+        <h2 id="contact">Contact Me</h2>
+        <ul>
+            <li>Email: Filler@email.com</li>
+            <li>Phone: 777-777-7777</li>
+        </ul>
+    </section>
     <footer>
 
     </footer>
